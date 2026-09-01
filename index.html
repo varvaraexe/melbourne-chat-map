@@ -15,8 +15,8 @@
 button,select{font:inherit}.loader{position:fixed;inset:0;z-index:9999;background:#e7f0f7;display:grid;place-items:center;transition:opacity .3s ease,visibility .3s ease}.loader.hide{opacity:0;visibility:hidden}.loader-box{text-align:center}.loader-bubble{width:58px;height:58px;margin:0 auto 15px;border-radius:50%;background:#229ED9;position:relative;animation:pulse 1s ease-in-out infinite}.loader-bubble:after{content:"";position:absolute;left:7px;bottom:-4px;width:17px;height:17px;background:#229ED9;clip-path:polygon(0 0,100% 0,0 100%);transform:rotate(-10deg)}.loader-title{font-weight:750;font-size:18px;letter-spacing:-.02em}.loader-sub{font-size:13px;color:#708499;margin-top:5px}@keyframes pulse{0%,100%{transform:scale(.92);opacity:.8}50%{transform:scale(1);opacity:1}}.app{height:100%;display:grid;grid-template-columns:minmax(340px,42%) 1fr;overflow:hidden}.panel{padding:34px 28px 20px;overflow:auto;border-right:1px solid var(--line);background:#f7fbfe}
 .kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700}.title{font-size:clamp(38px,5vw,64px);line-height:.98;margin:10px 0 13px;letter-spacing:-.045em;font-weight:750}.sub{color:var(--muted);max-width:520px;font-size:15px;line-height:1.45;margin-bottom:22px}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}.filter{border:1px solid var(--line);background:transparent;border-radius:999px;padding:8px 12px;cursor:pointer}.filter.active{background:var(--accent);color:white;border-color:var(--accent)}
-.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:4px 0 12px;font-size:12px;color:var(--muted)}.source-select{appearance:none;border:0;background:transparent;color:var(--muted);font-size:12px;font-weight:600;padding:4px 20px 4px 4px;cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,#708499 50%),linear-gradient(135deg,#708499 50%,transparent 50%);background-position:calc(100% - 8px) 50%,calc(100% - 4px) 50%;background-size:4px 4px,4px 4px;background-repeat:no-repeat}.source-select:focus{outline:none;color:var(--accent)}.cards{display:grid;gap:10px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px 16px 16px 5px;padding:15px 16px;cursor:pointer;transition:.18s}.card:hover,.card.active{transform:translateY(-1px);box-shadow:0 8px 25px #554b3c16;border-color:#bdb4a5}.top{display:flex;gap:10px;align-items:flex-start}.emoji{font-size:22px}.name{font-weight:800;line-height:1.2}.where{font-size:12px;color:var(--muted);margin-top:4px}.note{margin-top:10px;font-size:14px;line-height:1.4;color:#555}.author{display:inline-block;margin-top:11px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.author.v{color:var(--green)}.author.k{color:var(--purple)}
-#map{height:100%;width:100%;background:#e9eef2}.pin{width:34px;height:34px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:grid;place-items:center;border:2px solid #fff;box-shadow:0 4px 14px #0003;cursor:pointer}.pin span{transform:rotate(45deg);font-size:16px}.maplibregl-popup-content{border-radius:14px;padding:14px 16px;box-shadow:0 8px 28px #0002}.maplibregl-popup-close-button{font-size:18px;color:#708499;padding:4px 8px}.popup-name{font-weight:800;font-size:15px;padding-right:14px}.popup-note{margin-top:5px;color:#555}.maplibregl-ctrl-attrib{font-size:10px!important;background:rgba(255,255,255,.82)!important}.maplibregl-ctrl-attrib a{color:#708499!important}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:4px 0 12px;font-size:12px;color:var(--muted)}.source-select{appearance:none;border:0;background:transparent;color:var(--muted);font-size:12px;font-weight:600;padding:4px 20px 4px 4px;cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,#708499 50%),linear-gradient(135deg,#708499 50%,transparent 50%);background-position:calc(100% - 8px) 50%,calc(100% - 4px) 50%;background-size:4px 4px,4px 4px;background-repeat:no-repeat}.source-select:focus{outline:none;color:var(--accent)}.source-tools{display:flex;align-items:center;gap:8px}.share-btn{border:0;background:#e5f3fb;color:#168acd;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:700;cursor:pointer;white-space:nowrap}.share-btn:hover{background:#d8eefb}.share-btn:active{transform:translateY(1px)}.cards{display:grid;gap:10px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px 16px 16px 5px;padding:15px 16px;cursor:pointer;transition:.18s}.card:hover,.card.active{transform:translateY(-1px);box-shadow:0 8px 25px #554b3c16;border-color:#bdb4a5}.top{display:flex;gap:10px;align-items:flex-start}.emoji{font-size:22px}.name{font-weight:800;line-height:1.2}.where{font-size:12px;color:var(--muted);margin-top:4px}.note{margin-top:10px;font-size:14px;line-height:1.4;color:#555}.author{display:inline-block;margin-top:11px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.author.v{color:var(--green)}.author.k{color:var(--purple)}
+#map{height:100%;width:100%;background:#e9eef2}.pin{width:34px;height:34px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:grid;place-items:center;border:2px solid #fff;box-shadow:0 4px 14px #0003;cursor:pointer}.pin span{transform:rotate(45deg);font-size:16px}.maplibregl-popup-content{border-radius:14px;padding:14px 16px;box-shadow:0 8px 28px #0002}.maplibregl-popup-close-button{font-size:18px;color:#708499;padding:4px 8px}.popup-name{font-weight:800;font-size:15px;padding-right:14px}.popup-note{margin-top:5px;color:#555}.map-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.map-link{display:inline-flex;align-items:center;gap:5px;padding:7px 10px;border-radius:10px;background:#eef6fb;color:#168acd;text-decoration:none;font-size:12px;font-weight:700}.map-link:hover{background:#dff0fb}.card-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.card-link{font-size:12px;font-weight:700;color:#168acd;text-decoration:none}.card-link:hover{text-decoration:underline}.maplibregl-ctrl-attrib{font-size:10px!important;background:rgba(255,255,255,.82)!important}.maplibregl-ctrl-attrib a{color:#708499!important}
 @media(max-width:760px){.app{display:block;overflow:auto}.panel{padding:24px 16px 28px;border:0;overflow:visible}.title{font-size:47px}.map-wrap{height:52vh;position:sticky;top:0;z-index:0}.panel{position:relative;z-index:2;background:#f7fbfe;border-radius:22px 22px 0 0;margin-top:-18px}.app{display:flex;flex-direction:column}.map-wrap{order:0}.panel{order:1}.filters{overflow:auto;flex-wrap:nowrap;padding-bottom:4px}.filter{white-space:nowrap}}
 </style>
 </head>
@@ -30,12 +30,25 @@ button,select{font:inherit}.loader{position:fixed;inset:0;z-index:9999;backgroun
     <div class="filters">
       <button v-for="f in filters" :key="f" class="filter" :class="{active:filter===f}" @click="filter=f">{{ f }}</button>
     </div>
-    <div class="meta"><span>{{filtered.length}} мест</span><select class="source-select" v-model="source"><option value="All">весь чат</option><option v-for="a in authors" :key="a" :value="a">{{a}}</option></select></div>
+    <div class="meta">
+      <span>{{filtered.length}} мест</span>
+      <div class="source-tools">
+        <select class="source-select" v-model="source">
+          <option value="All">весь чат</option>
+          <option v-for="a in authors" :key="a" :value="a">{{a}}</option>
+        </select>
+        <button class="share-btn" type="button" @click="shareCurrent">{{ shareLabel }}</button>
+      </div>
+    </div>
     <div class="cards">
       <article v-for="p in filtered" :key="p.id" class="card" :class="{active:selected===p.id}" @click="focus(p)">
         <div class="top"><div class="emoji">{{p.emoji}}</div><div><div class="name">{{p.name}}</div><div class="where">{{p.category}}<span v-if="p.area"> · {{p.area}}</span></div></div></div>
         <div v-if="p.note" class="note">“{{p.note}}”</div>
         <div class="author" :class="p.author==='Veronika'?'v':'k'">советует {{p.author}}</div>
+        <div class="card-links" v-if="p.lat">
+          <a class="card-link" :href="googleUrl(p)" target="_blank" rel="noopener" @click.stop>Google Maps</a>
+          <a class="card-link" :href="appleUrl(p)" target="_blank" rel="noopener" @click.stop>Apple Maps</a>
+        </div>
       </article>
     </div>
   </section>
@@ -44,19 +57,62 @@ button,select{font:inherit}.loader{position:fixed;inset:0;z-index:9999;backgroun
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
 <script>
-const places = [{"id":1,"name":"Heronswood Gardens & Nursery","author":"Veronika","category":"Gardens","emoji":"🌿","area":"Dromana","lat":-38.3335,"lng":144.964},{"id":2,"name":"Cloudehill Garden & Nursery","author":"Veronika","category":"Gardens","emoji":"🌿","area":"Olinda","lat":-37.8547,"lng":145.3745},{"id":3,"name":"Yun Yang Temple","author":"Veronika","category":"Culture","emoji":"🛕","area":"Narre Warren North","lat":-37.993,"lng":145.314},{"id":4,"name":"Kryal Castle","author":"Veronika","category":"Kids","emoji":"🏰","area":"Leigh Creek / Ballarat","lat":-37.5686,"lng":143.9617},{"id":5,"name":"Melbourne Planetarium","author":"Veronika","category":"Culture","emoji":"🪐","area":"Scienceworks · Spotswood","lat":-37.8315,"lng":144.892},{"id":6,"name":"Market 3196","author":"Veronika","category":"Markets","emoji":"🛍️","area":"Chelsea Heights","lat":-38.0385,"lng":145.1358},{"id":7,"name":"Pt. Leo Estate","author":"Veronika","category":"Food & drink","emoji":"🍷","area":"Merricks","lat":-38.3929,"lng":145.0858},{"id":8,"name":"William Ricketts Sanctuary","author":"Veronika","category":"Nature","emoji":"🌲","area":"Mount Dandenong","lat":-37.8338,"lng":145.3558},{"id":9,"name":"Montsalvat","author":"Veronika","category":"Culture","emoji":"🎨","area":"Eltham","lat":-37.72807,"lng":145.15361},{"id":10,"name":"Ashcombe Maze & Lavender Gardens","author":"Veronika","category":"Gardens","emoji":"💜","area":"Shoreham","lat":-38.4247,"lng":145.0478},{"id":11,"name":"Prahran Market","author":"Ksenia","category":"Markets","emoji":"🥐","area":"South Yarra","lat":-37.8466,"lng":144.9925,"note":"Prahran or South Melbourne market"},{"id":12,"name":"South Melbourne Market","author":"Ksenia","category":"Markets","emoji":"🥐","area":"South Melbourne","lat":-37.8328,"lng":144.957,"note":"Prahran or South Melbourne market"},{"id":13,"name":"Collingwood Children’s Farm","author":"Ksenia","category":"Kids","emoji":"🐐","area":"Abbotsford","lat":-37.8022,"lng":145.0107,"note":"River walk and Collingwood children farm and cafe"},{"id":14,"name":"Yarra river walk · Abbotsford","author":"Ksenia","category":"Outdoors","emoji":"🚶","area":"Abbotsford","lat":-37.7998,"lng":145.0125,"note":"River walk and Collingwood children farm and cafe"},{"id":15,"name":"Black Gold","author":"Ksenia","category":"Food & drink","emoji":"🥞","area":"Richmond","lat":-37.8188,"lng":144.9985,"note":"best pancakes"},{"id":16,"name":"Royal Botanic Gardens · cactus area","author":"Ksenia","category":"Gardens","emoji":"🌵","area":"Guilfoyle’s Volcano","lat":-37.8329,"lng":144.9817,"note":"especially cactus area"},{"id":17,"name":"Shrine of Remembrance","author":"Ksenia","category":"Culture","emoji":"🏛️","area":"Melbourne","lat":-37.8305,"lng":144.9734,"note":"make sure to go up and see the Melbourne view"},{"id":18,"name":"Hometown tea rooms","author":"Ksenia","category":"Food & drink","emoji":"🫖","area":"","lat":null,"lng":null},{"id":19,"name":"Heide Kitchen","author":"Ksenia","category":"Food & drink","emoji":"🍽️","area":"Heide · Bulleen","lat":-37.7595,"lng":145.0822,"note":"Heide restaurant"},{"id":20,"name":"Capital City Trail","author":"Ksenia","category":"Outdoors","emoji":"🚲","area":"Melbourne loop","lat":-37.8177,"lng":144.9685,"note":"by bicycle"},{"id":21,"name":"Go to a musical","author":"Ksenia","category":"Entertainment","emoji":"🎭","area":"Melbourne theatre district","lat":-37.8107,"lng":144.9728,"note":"Pick whatever is on — this is an experience rather than one venue"},{"id":22,"name":"Fleet Rooftop Bar","author":"Ksenia","category":"Food & drink","emoji":"🍸","area":"CBD · Vibe Hotel","lat":-37.8187,"lng":144.9606}];
+const places = [{"id":1,"name":"Heronswood Gardens & Nursery","author":"Veronika","category":"Gardens","emoji":"🌿","area":"Dromana","lat":-38.3335,"lng":144.964},{"id":2,"name":"Cloudehill Garden & Nursery","author":"Veronika","category":"Gardens","emoji":"🌿","area":"Olinda","lat":-37.8547,"lng":145.3745},{"id":3,"name":"Yun Yang Temple","author":"Veronika","category":"Culture","emoji":"🛕","area":"Narre Warren North","lat":-37.993,"lng":145.314},{"id":4,"name":"Kryal Castle","author":"Veronika","category":"Kids","emoji":"🏰","area":"Leigh Creek / Ballarat","lat":-37.5686,"lng":143.9617},{"id":5,"name":"Melbourne Planetarium","author":"Veronika","category":"Culture","emoji":"🪐","area":"Scienceworks · Spotswood","lat":-37.8315,"lng":144.892},{"id":6,"name":"Market 3196","author":"Veronika","category":"Markets","emoji":"🛍️","area":"Chelsea Heights","lat":-38.0385,"lng":145.1358},{"id":7,"name":"Pt. Leo Estate","author":"Veronika","category":"Food & drink","emoji":"🍷","area":"Merricks","lat":-38.3929,"lng":145.0858},{"id":8,"name":"William Ricketts Sanctuary","author":"Veronika","category":"Nature","emoji":"🌲","area":"Mount Dandenong","lat":-37.8338,"lng":145.3558},{"id":9,"name":"Montsalvat","author":"Veronika","category":"Culture","emoji":"🎨","area":"Eltham","lat":-37.72807,"lng":145.15361},{"id":10,"name":"Ashcombe Maze & Lavender Gardens","author":"Veronika","category":"Gardens","emoji":"💜","area":"Shoreham","lat":-38.4247,"lng":145.0478},{"id":11,"name":"Prahran Market","author":"Ksenia","category":"Markets","emoji":"🥐","area":"South Yarra","lat":-37.8466,"lng":144.9925,"note":"Prahran or South Melbourne market"},{"id":12,"name":"South Melbourne Market","author":"Ksenia","category":"Markets","emoji":"🥐","area":"South Melbourne","lat":-37.8328,"lng":144.957,"note":"Prahran or South Melbourne market"},{"id":13,"name":"Collingwood Children’s Farm","author":"Ksenia","category":"Kids","emoji":"🐐","area":"Abbotsford","lat":-37.8022,"lng":145.0107,"note":"River walk and Collingwood children farm and cafe"},{"id":14,"name":"Yarra river walk · Abbotsford","author":"Ksenia","category":"Outdoors","emoji":"🚶","area":"Abbotsford","lat":-37.7998,"lng":145.0125,"note":"River walk and Collingwood children farm and cafe"},{"id":15,"name":"Black Gold","author":"Ksenia","category":"Food & drink","emoji":"🥞","area":"Richmond","lat":-37.8188,"lng":144.9985,"note":"best pancakes"},{"id":16,"name":"Royal Botanic Gardens · cactus area","author":"Ksenia","category":"Gardens","emoji":"🌵","area":"Guilfoyle’s Volcano","lat":-37.8329,"lng":144.9817,"note":"especially cactus area"},{"id":17,"name":"Shrine of Remembrance","author":"Ksenia","category":"Culture","emoji":"🏛️","area":"Melbourne","lat":-37.8305,"lng":144.9734,"note":"make sure to go up and see the Melbourne view"},{"id":18,"name":"Hometown tea rooms","author":"Ksenia","category":"Food & drink","emoji":"🫖","area":"","lat":null,"lng":null},{"id":19,"name":"Heide Kitchen","author":"Ksenia","category":"Food & drink","emoji":"🍽️","area":"Heide · Bulleen","lat":-37.7595,"lng":145.0822,"note":"Heide restaurant"},{"id":20,"name":"Capital City Trail","author":"Ksenia","category":"Outdoors","emoji":"🚲","area":"Melbourne loop","lat":-37.8177,"lng":144.9685,"note":"by bicycle"},{"id":21,"name":"Go to a musical","author":"Ksenia","category":"Entertainment","emoji":"🎭","area":"Melbourne theatre district","lat":-37.8107,"lng":144.9728,"note":"Pick whatever is on — this is an experience rather than one venue"},{"id":22,"name":"Fleet Rooftop Bar","author":"Ksenia","category":"Food & drink","emoji":"🍸","area":"CBD · Vibe Hotel","lat":-37.8187,"lng":144.9606},{"id":23,"name":"Toorongo Falls Reserve","author":"Olesia","category":"Nature","emoji":"💦","area":"Noojee","lat":-37.8499773,"lng":146.0456245},{"id":24,"name":"Toolshed Bar, Bistro & Cabins","author":"Olesia","category":"Food & drink","emoji":"🍴","area":"Noojee","lat":-37.893,"lng":145.999},{"id":25,"name":"Glen Nayook Rainforest Walk","author":"Olesia","category":"Outdoors","emoji":"🌿","area":"Nayook / Neerim Junction","lat":-37.9258,"lng":145.9476},{"id":26,"name":"Ada Tree","author":"Olesia","category":"Nature","emoji":"🌳","area":"Yarra State Forest","lat":-37.8377,"lng":145.8428},{"id":27,"name":"Sir Paz Estate","author":"Olesia","category":"Food & drink","emoji":"🍷","area":"Wandin East · Yarra Valley","lat":-37.8187,"lng":145.4665},{"id":28,"name":"Riverstone Estate Yarra Valley","author":"Olesia","category":"Food & drink","emoji":"🍷","area":"Coldstream · Yarra Valley","lat":-37.7096,"lng":145.4096},{"id":29,"name":"Arthurs Seat Eagle Base Station","author":"Olesia","category":"Outdoors","emoji":"🚡","area":"Dromana","lat":-38.3376,"lng":144.9648},{"id":30,"name":"Apollo Bay Seafood Cafe","author":"Olesia","category":"Food & drink","emoji":"🐟","area":"Apollo Bay","lat":-38.7573,"lng":143.6695},{"id":31,"name":"Cape Otway Lightstation","author":"Olesia","category":"Culture","emoji":"⚓","area":"Cape Otway","lat":-38.8566,"lng":143.5116}];
 const colors={'Gardens':'#54755d','Culture':'#8b6aa9','Kids':'#e8b84c','Markets':'#c96f88','Food & drink':'#e4523f','Nature':'#54755d','Outdoors':'#5e84a6','Entertainment':'#8b6aa9'};
 
 function startApp(){
   try{
     Vue.createApp({
-      data(){return{places,filter:'All',source:'All',selected:null,map:null,markers:{}}},
+      data(){
+        const params=new URLSearchParams(window.location.search);
+        const validAuthors=new Set(places.map(p=>p.author));
+        const validCategories=new Set(places.map(p=>p.category));
+        const author=params.get('author');
+        const category=params.get('category');
+        return{
+          places,
+          filter:category&&validCategories.has(category)?category:'All',
+          source:author&&validAuthors.has(author)?author:'All',
+          selected:null,
+          map:null,
+          markers:{},
+          shareLabel:'Поделиться'
+        }
+      },
       computed:{
         filters(){return ['All',...new Set(this.places.map(p=>p.category))]},
         authors(){return [...new Set(this.places.map(p=>p.author))].sort()},
         filtered(){return this.places.filter(p=>(this.filter==='All'||p.category===this.filter)&&(this.source==='All'||p.author===this.source))}
       },
       methods:{
+        syncUrl(){
+          const params=new URLSearchParams();
+          if(this.source!=='All') params.set('author',this.source);
+          if(this.filter!=='All') params.set('category',this.filter);
+          const query=params.toString();
+          const next=window.location.pathname+(query?'?'+query:'')+window.location.hash;
+          try{history.replaceState(null,'',next)}catch(e){}
+        },
+        async shareCurrent(){
+          this.syncUrl();
+          const url=window.location.href;
+          try{
+            if(navigator.share && /^https?:/.test(url)){
+              await navigator.share({title:'Мельбурн от подруг',url});
+              return;
+            }
+            await navigator.clipboard.writeText(url);
+            this.shareLabel='Ссылка скопирована ✓';
+          }catch(e){
+            this.shareLabel='Скопировать ссылку';
+          }
+          setTimeout(()=>this.shareLabel='Поделиться',1800);
+        },
+        googleUrl(p){return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`},
+        appleUrl(p){return `https://maps.apple.com/?q=${encodeURIComponent(p.name)}&ll=${p.lat},${p.lng}`},
+        popupHtml(p){
+          return `<div class="popup-name">${p.emoji} ${p.name}</div><div>${p.area||''} · ${p.author}</div>${p.note?`<div class="popup-note">“${p.note}”</div>`:''}<div class="map-links"><a class="map-link" href="${this.googleUrl(p)}" target="_blank" rel="noopener">Google Maps</a><a class="map-link" href="${this.appleUrl(p)}" target="_blank" rel="noopener">Apple Maps</a></div>`;
+        },
         focus(p){
           this.selected=p.id;
           const item=this.markers[p.id];
@@ -74,7 +130,7 @@ function startApp(){
             el.style.background=colors[p.category]||'#333';
             el.innerHTML=`<span>${p.emoji}</span>`;
             const popup=new maplibregl.Popup({offset:24})
-              .setHTML(`<div class="popup-name">${p.emoji} ${p.name}</div><div>${p.area||''} · ${p.author}</div>${p.note?`<div class="popup-note">“${p.note}”</div>`:''}`);
+              .setHTML(this.popupHtml(p));
             const marker=new maplibregl.Marker({element:el,anchor:'bottom'})
               .setLngLat([p.lng,p.lat])
               .setPopup(popup)
@@ -84,7 +140,10 @@ function startApp(){
           });
         }
       },
-      watch:{filter(){this.draw();this.selected=null},source(){this.draw();this.selected=null}},
+      watch:{
+        filter(){if(this.map)this.draw();this.selected=null;this.syncUrl()},
+        source(){if(this.map)this.draw();this.selected=null;this.syncUrl()}
+      },
       mounted(){
         this.map=new maplibregl.Map({
           container:'map',
